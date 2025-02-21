@@ -5,6 +5,6 @@ except ImportError:
     from importlib.metadata import version, PackageNotFoundError
 
     try:
-        __version__ = version("pyquadkey2")
+        __version__ = version("pyquadkey2-test")
     except PackageNotFoundError:
         __version__ = "unknown"

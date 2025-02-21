@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "pyquadkey2"
+name = "pyquadkey2test"
 dynamic = ["version"]
 authors = [
     { name = "Ferdinand Mütsch", email = "ferdinand@muetsch.io" },
@@ -37,7 +37,7 @@ license = { file = "LICENSE" }
 'Documentation' = 'https://docs.muetsch.io/pyquadkey2/'
 
 [tool.hatch.build.targets.sdist]
-include = ["src/pyquadkey2"]
+include = ["src/pyquadkey2test"]
 
 [tool.hatch.build.targets.wheel]
 only-packages = true
@@ -53,4 +53,4 @@ source = "vcs"
 
 [tool.hatch.build.hooks.vcs]
 dependencies = ["hatch-vcs"]
-version-file = "src/pyquadkey2/_version.py"
+version-file = "src/pyquadkey2test/_version.py"
